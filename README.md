@@ -38,6 +38,8 @@ python3 src/main.py
 
 A seguir, uma demonstração do dashboard:
 
+[Dashboard MNIST Demo.webm](https://github.com/GustavoWidman/DashboardMNIST/assets/123963822/47fe112d-d099-4ea4-ae8a-382f32187b6c)
+
 ## Sobre o dashboard
 
 O dashboard possui duas páginas, a página de classificação e a página de treinamento. Na página de classificação, o usuário pode fazer o upload de uma imagem e escolher qual modelo deseja utilizar para classificar a imagem. O usuário pode escolher entre o modelo convolucional e o modelo linear. Após a classificação, o usuário pode ver a imagem classificada da maneira que o modelo a interpretou, além de ver a probabilidade de cada classe, o tempo de execução e o resultado com a maior probabilidade. Na página de treinamento, o usuário pode re-treinar os modelos, escolhendo a quantidade de épocas e o modelo que deseja retreinar, acompanhando o progresso do treinamento em tempo real por meio da utilização de uma web socket que fornecerá informações sobre o treinamento e preencherá um 'terminal' com as informações. Na página de treinamento, o usuário pode baixar os pesos dos modelos treinados após o treinamento.
